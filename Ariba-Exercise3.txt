@@ -1,0 +1,1 @@
+This is using case in mysql, its kind of just code iterating and assuming the resultsSELECT BT.ID,    CASE        WHEN BT.P_ID IS NULL THEN ‘ROOT’        WHEN EXISTS (SELECT B.P_ID FROM TREE B WHERE B.P_ID = BT.ID) THEN ‘INNER’                ELSE ‘LEAF’    ENDFROM TREE AS BT ORDER BY BT.ID

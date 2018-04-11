@@ -1,0 +1,1 @@
+I have maven project for 2 coding exercises, which includes both implemented code and tests.How to run,1)Just import project into any IDE. I used EclipseCan run the tests.2)Using maven, just mvn clean install should run the tests as well.Attached the query in Ariba-Query.txt file.
