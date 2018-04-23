@@ -13,7 +13,7 @@ public class ElectionCountingMachine {
 		String winner = null;
 
 		if (votes == null || votes.length == 0) {
-			throw new IllegalArgumentException("No two sum solution");
+			throw new IllegalArgumentException("No votes found");
 		}
 
 		/** Here insert each and every vote into hashmap with code **/
